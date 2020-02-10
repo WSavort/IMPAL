@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+.cekregister{
+	height: 50px;
+	width: 50px;
+	color: aqua;
+}
+.logo{
+	width: 500px;
+	position: fixed;
+	top: 210px;
+	left: 100px;
+}
+
+.tulisan_register{
+	text-align: center;
+	/*membuat semua huruf menjadi kapital*/
+	text-transform: uppercase;
+	font-family: "black-ops-one";
+	font-size: 24px;
+	padding-bottom: 10px;
+}
+
+.register{
+	width: 350px;
+	background: #88D956;
+	/*meletakkan form ke tengah*/
+	position: fixed;
+	left: 740px;
+	bottom: 0px;
+	margin: auto;
+	padding: 45px 150px 45px 150px;
+	border: ridge 2px #4D3E3E;
+}
+
+label{
+	font-size: 11pt;
+	font-family: "black-ops-one";
+}
+
+.form_register{
+	/*membuat lebar form penuh*/
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	font-family: "black-ops-one";
+	margin-bottom: 20px;
+	border: solid 1px #000000;
+}
+
+.tombol_register{
+	background: #46de4b;
+	color: black;
+	font-size: 11pt;
+	font-family: "black-ops-one";
+	width: 100%;
+	border-radius: 3px;
+	padding: 10px 20px;
+	border: solid 1px #000000;
+}
+/*.kotak_register{
+	width: 350px;
+	background: white;
+	meletakkan form ke tengah
+	margin: 80px auto;
+	padding: 30px 20px;
+}*/
+.daftar{	
+	text-decoration: none;
+	text-align: center;
+	color: black;
+}
+.namalogo{
+	color:#364CB7;
+	font-size: 25px;
+	font-family: damion;
+	position: relative;
+	top: 320px;
+	left: 245px;
+}
+.eror{
+	color: red;
+}

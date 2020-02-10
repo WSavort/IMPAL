@@ -1,0 +1,154 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background: #d7d5db;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+#header{
+	background-image: url("images/background.jpg");
+	height: 100px;
+	width: 100%;
+	background-size: 100%;
+	background-position:center;
+	position: fixed;
+	z-index: 1;
+}
+.menu-utama ul{
+	position: relative;
+	left: 450px;
+	bottom: 25px;
+}
+.menu-utama ul li{
+	position: relative;
+	display: inline-block;
+	padding: 10px 45px 10px 0px;		
+}
+.menu-utama ul li a:hover{
+	text-decoration: underline;
+}
+.menu-utama ul li a{
+	color: #000000;
+	text-decoration: none;
+	list-style: none;
+	text-align: right;
+	font-size: 20px;
+}
+ul.subwish{
+    position: absolute;
+    top: 40px;
+    left: -50px;
+	display: none;
+}
+ul.subwish li{
+	background-color: #CECECE;
+	border: 1px solid;
+	padding-left: 20px;
+	padding-right: 20px;
+    display: block;
+	min-width: 140px;
+}
+ul.subwish li a{
+    display: block;
+	text-align: left;
+}
+.menu-utama ul li:hover ul.subwish{
+    display: block;
+}
+.logo{
+	position: relative;
+	left: 20px;
+	top: 20px;
+}
+.logout{
+	border: 1px solid;
+	background-color: #E0E0E0;
+	width: 90px;
+	height: 35px;
+	border-radius: 100px;
+	position: relative;
+	left: 1200px;
+	bottom: 65px;
+}
+.logout a{
+	color: #000000;
+	text-decoration: none;
+	font-size: 20px;
+	position: relative;
+	top: 5px;
+	left: 12px;
+}
+.daftar{	
+	text-decoration: none;
+	text-align: center;
+	color: black;
+}
+.form_register{
+	box-sizing : border-box;
+	width: 300px;
+	padding: 10px;
+	font-size: 11pt;
+	font-family: "black-ops-one";
+	margin-bottom: 20px;
+	border: solid 1px #000000;
+}
+.tombol_register{
+	background: #46de4b;
+	color: black;
+	font-size: 11pt;
+	font-family: "black-ops-one";
+	width: 300px;
+	border-radius: 3px;
+	padding: 10px 20px;
+	border: solid 1px #000000;
+}
+#footer{
+	height: 80px;
+	position: absolute;
+	bottom: -50px;
+	width: 100%;
+	background-image: url("images/background.jpg");
+	background-size: 100%;
+	background-position: center;
+	overflow: hidden;
+}
+#footer p{
+	margin-left: 100px;
+	margin-top: 35px;
+	color: white;
+}
+
+.input_profil{
+	width: 300px;
+	height: 500px;
+	top: 100px;
+	background: #d7d5db;
+	/*meletakkan form ke tengah*/
+	position: relative;
+	padding: 20px 30px 30px 25px;
+	border: thick solid;
+	border-width: 2px;
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+}
+.input_profil form,p,label{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.TabelProfile{
+	width: 600px;
+	background: #d7d5db;
+	/*meletakkan form ke tengah*/
+	position: absolute;
+	left: 400px;
+	bottom: 0px;
+	top: 100px;
+	margin-left: 10px;
+	padding: 20px 30px 30px 25px;
+	
+}
+.tulisan_profile{
+	font-size: 30px;
+}
